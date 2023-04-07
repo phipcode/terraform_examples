@@ -1,10 +1,9 @@
 
 
 #Australia Southeast -  Prod
-
 location            = "australiaeast"
 resource_group_name = "terraform-examples-group"
-environment = "prod"
+environment         = "prod"
 
 #Network
 virtual_networks = {
@@ -22,18 +21,16 @@ subnets = {
     address_prefixes           = ["10.0.1.0/24"]
     virtual_network_name       = "vnet-aue"
     network_security_group_key = "nsg1"
-    resource_group_name = "terraform-examples-group"
+    resource_group_name        = "terraform-examples-group"
   }
-  
 
   subnet2 = {
     name                       = "subnet2"
     address_prefixes           = ["10.0.2.0/24"]
     virtual_network_name       = "vnet-aue"
     network_security_group_key = "nsg1"
-    resource_group_name = "terraform-examples-group"
+    resource_group_name        = "terraform-examples-group"
   }
-
 
 }
 
