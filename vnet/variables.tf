@@ -1,3 +1,7 @@
+variable "terraform_workspace" {
+  description = "The Terraform workspace to use"
+  default     = "non-prod"
+}
 variable "network_security_groups" {
   description = "A map of network security group configurations"
   # type = map(object({
