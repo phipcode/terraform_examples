@@ -1,6 +1,9 @@
 # Local .terraform directories
 **/.terraform/*
 
+# .terraform.lock.hcl files
+**/.terraform.lock.hcl
+
 #hcl files
 **/.hcl/*
 
@@ -10,6 +13,9 @@
 
 # Crash log files
 crash.log
+
+# .tfvars files
+**/*.tfvars
 
 # Ignore any .tfvars files that are generated automatically for each Terraform run. Most
 # .tfvars files are managed as part of configuration and so should be included in

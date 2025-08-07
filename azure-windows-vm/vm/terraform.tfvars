@@ -1,9 +1,0 @@
-resource_group_name = "my-resource-group"
-location            = "australiaeast"
-vm_name             = "my-windows-vm"
-vm_size             = "Standard_DSs_v3"
-admin_username      = "admin_user"
-admin_password      = "P@$$w0rd1234!"
-rdp_port            = 3389
-subnet_id           = "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/my-resource-group/providers/Microsoft.Network/virtualNetworks/my-vnet/subnets/internal"
-vnet_name           = "my-vnet"
